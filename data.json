@@ -1,12 +1,25 @@
-[
-  {
-    "id": "smarttube",
-    "name": "SmartTube",
-    "icon": "img/smarttube.png",
-    "version": "Beta 6.10",
-    "size": "17 MB",
-    "category": "تلفزيون",
-    "description": "مشغّل يوتيوب متقدم لأجهزة أندرويد TV بدون إعلانات، مع دعم الجودة العالية والتحكم الكامل.",
-    "downloadUrl": "https://github.com/Abo3Twy/Almohandes-app/raw/main/smarttube_beta_610.apk"
-  }
-]
+{
+  "store": {
+    "name": "مكتب المهندس",
+    "tagline": "متجرك الموثوق لتطبيقات الأندرويد والتلفزيون",
+    "logoText": "م"
+  },
+  "apps": [
+    {
+      "id": "smarttube",
+      "name": "SmartTube",
+      "color": "#e53935",
+      "icon": "img/smarttube.png",
+      "version": "Beta 6.10",
+      "size": "17 MB",
+      "category": "تلفزيون",
+      "developer": "SmartTube Team",
+      "rating": 4.8,
+      "downloads": "50M+",
+      "featured": true,
+      "description": "مشغّل يوتيوب متقدّم لأجهزة أندرويد TV بدون إعلانات.",
+      "longDescription": "SmartTube هو بديل احترافي لتطبيق يوتيوب على أجهزة الأندرويد TV. يوفّر مشاهدة بدون إعلانات نهائياً، دعم الجودة العالية حتى 8K، تشغيل في الخلفية، تحكّم كامل بالسرعة، والاشتراكات بدون الحاجة لحساب. واجهة مصمّمة خصيصاً للريموت وسهلة الاستخدام.",
+      "downloadUrl": "https://github.com/Abo3Twy/Almohandes-app/raw/main/smarttube_beta_610.apk"
+    }
+  ]
+}

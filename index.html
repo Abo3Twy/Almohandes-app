@@ -3,20 +3,70 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>متجر التطبيقات</title>
+<title>مكتب المهندس | متجر التطبيقات</title>
+<meta name="description" content="متجرك الموثوق لتطبيقات الأندرويد والتلفزيون">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="site-header">
-    <h1>📦 متجر التطبيقات</h1>
-    <input type="text" id="searchBox" placeholder="ابحث عن تطبيق...">
+  <!-- الهيدر -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#">
+        <span class="brand-logo" id="brandLogo">م</span>
+        <span class="brand-text">
+          <strong id="brandName">مكتب المهندس</strong>
+          <small id="brandTagline">متجر التطبيقات</small>
+        </span>
+      </a>
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="text" id="searchBox" placeholder="ابحث عن تطبيق...">
+      </div>
+    </div>
   </header>
 
-  <main id="appsGrid" class="apps-grid">
-    <!-- بطاقات التطبيقات تُبنى تلقائياً هنا بواسطة appLoader.js -->
+  <!-- القسم المميّز -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">✨ متجر موثوق</div>
+      <h1 class="hero-title" id="heroTitle">مكتب المهندس</h1>
+      <p class="hero-sub" id="heroTagline">متجرك الموثوق لتطبيقات الأندرويد والتلفزيون</p>
+      <div class="hero-stats">
+        <div class="stat"><strong id="statApps">0</strong><span>تطبيق</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>آمن</strong><span>100%</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>مجاني</strong><span>بالكامل</span></div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- فلاتر الفئات -->
+    <div class="filters" id="filters"></div>
+
+    <!-- شبكة التطبيقات -->
+    <section id="appsGrid" class="apps-grid"></section>
   </main>
 
+  <!-- الفوتر -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> مكتب المهندس — جميع الحقوق محفوظة</p>
+      <p class="footer-note">التطبيقات تُحمّل على مسؤولية المستخدم</p>
+    </div>
+  </footer>
+
+  <!-- نافذة التفاصيل -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal-card" id="modalCard"></div>
+  </div>
+
+  <!-- إشعار -->
   <div id="toast" class="toast"></div>
 
   <script src="appLoader.js"></script>
