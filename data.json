@@ -1,0 +1,12 @@
+[
+  {
+    "id": "smarttube",
+    "name": "SmartTube",
+    "icon": "img/smarttube.png",
+    "version": "Beta 6.10",
+    "size": "17 MB",
+    "category": "تلفزيون",
+    "description": "مشغّل يوتيوب متقدم لأجهزة أندرويد TV بدون إعلانات، مع دعم الجودة العالية والتحكم الكامل.",
+    "downloadUrl": "https://github.com/Abo3Twy/Almohandes-app/raw/main/smarttube_beta_610.apk"
+  }
+]
